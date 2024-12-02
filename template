@@ -1,0 +1,19 @@
+module Day%day%.Main where
+
+type Input = ()
+type Output = ()
+
+readInput :: String -> Input
+readInput = undefined
+
+solve1 :: Input -> Output
+solve1 = undefined
+
+solve2 :: Input -> Output
+solve2 = undefined
+
+main :: IO ()
+main = do
+    input <- readInput <$> readFile "Day%day%/input.txt"
+    print $ solve1 input
+    -- print $ solve2 input
